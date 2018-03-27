@@ -51,6 +51,7 @@
             this.lblTikla = new System.Windows.Forms.Label();
             this.cmbKlinika = new System.Windows.Forms.ComboBox();
             this.listHekim = new System.Windows.Forms.ListBox();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -310,12 +311,23 @@
             this.listHekim.Size = new System.Drawing.Size(150, 49);
             this.listHekim.TabIndex = 42;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(168, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(224, 18);
+            this.label1.TabIndex = 43;
+            this.label1.Text = "Klinikalarda isleyen Hekimler\r\n";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.ClientSize = new System.Drawing.Size(1039, 440);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.listHekim);
             this.Controls.Add(this.cmbKlinika);
             this.Controls.Add(this.lblTikla);
@@ -374,6 +386,7 @@
         private System.Windows.Forms.Label lblTikla;
         private System.Windows.Forms.ComboBox cmbKlinika;
         private System.Windows.Forms.ListBox listHekim;
+        private System.Windows.Forms.Label label1;
     }
 }
 

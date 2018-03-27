@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.Text.RegularExpressions;
 
 namespace Hekimler
 {
@@ -17,6 +18,7 @@ namespace Hekimler
         public static string muayineText;
         public static string qiymetText;
         private SqlConnection con = new SqlConnection("Data Source = USER-ПК; Initial Catalog =Tebibler; Integrated Security = SSPI");
+        
         private int ClickedId = 0;
         public Patient()
         {
@@ -148,6 +150,19 @@ namespace Hekimler
         //ankete click 
         private void btnAnket_Click(object sender, EventArgs e)
         {
+            Regex phoneNumpattern = new Regex(@"\+[0-9]{3}\s+[0-9]{2}\s+[0-9]{3}\s+[0-9]{4}");
+            if (phoneNumpattern.IsMatch(txtNomre.Text))
+            {  
+            }
+            else
+            {
+                MessageBox.Show("Invalid phone number");
+            }
+            
+            if (!txtEmail.Text.Contains("@"))
+            {
+                MessageBox.Show("@ isaresini yazmaq mutleqdir");
+            }
             patientText = txtAd_Soyad.Text;
             muayineText = cmbMuayine.Text;
             qiymetText = listQiymet.Text;

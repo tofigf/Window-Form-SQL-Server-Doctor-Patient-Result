@@ -37,6 +37,7 @@ namespace Hekimler
             }
             con.Close();
         }
+        //klinika
         private void FillKlinikaCombo()
         {
             con.Open();
@@ -72,6 +73,7 @@ namespace Hekimler
             ltTehsil.Text = "";
 
         }
+        //=========================
         //hekimin infosu gorsenmir
         private void DisapperDoctorsInfo()
         {
@@ -104,7 +106,8 @@ namespace Hekimler
             lblYerler.Visible = true;
 
         }
-        //hekimin adlarinin secimi
+        //==========================
+        //hekimin adlarinin secimi zamani gelen infolar
         private void cmbHekim_SelectedIndexChanged(object sender, EventArgs e)
         {
             DisapperDoctorsInfo();
@@ -140,6 +143,7 @@ namespace Hekimler
 
 
         }
+        //==========================
         //axtariw duymesinde hekimin infosunu gosteririk
         private void btnAxtaris_Click(object sender, EventArgs e)
         {
