@@ -1,0 +1,12 @@
+C:\Users\User\Desktop\C#  myCreation\Hekimler\Hekimler\bin\Debug\Hekimler.exe.config
+C:\Users\User\Desktop\C#  myCreation\Hekimler\Hekimler\bin\Debug\Hekimler.exe
+C:\Users\User\Desktop\C#  myCreation\Hekimler\Hekimler\bin\Debug\Hekimler.pdb
+C:\Users\User\Desktop\C#  myCreation\Hekimler\Hekimler\obj\Debug\Hekimler.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\C#  myCreation\Hekimler\Hekimler\obj\Debug\Hekimler.Form1.resources
+C:\Users\User\Desktop\C#  myCreation\Hekimler\Hekimler\obj\Debug\Hekimler.Patient.resources
+C:\Users\User\Desktop\C#  myCreation\Hekimler\Hekimler\obj\Debug\Hekimler.Properties.Resources.resources
+C:\Users\User\Desktop\C#  myCreation\Hekimler\Hekimler\obj\Debug\Hekimler.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\C#  myCreation\Hekimler\Hekimler\obj\Debug\Hekimler.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\C#  myCreation\Hekimler\Hekimler\obj\Debug\Hekimler.exe
+C:\Users\User\Desktop\C#  myCreation\Hekimler\Hekimler\obj\Debug\Hekimler.pdb
+C:\Users\User\Desktop\C#  myCreation\Hekimler\Hekimler\obj\Debug\Hekimler.Netice.resources
